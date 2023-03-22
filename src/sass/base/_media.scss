@@ -32,6 +32,7 @@
         left: 50%;
         transform: translateX(-50%);
     }
+    
 } 
 
 @media (max-width: 767px) {
@@ -39,6 +40,9 @@
         &__official {
             display: none;
         }
+    }
+    .container {
+        width: 100%;
     }
     .promo {
         height: 600px;
@@ -72,6 +76,14 @@
         &__item {
             min-width: 350px;
             padding: 10px;
+        }
+    }
+    .carousel {
+        img {
+            width: 570px;
+        }
+        ul {
+            width: 570px;
         }
     }
 }
