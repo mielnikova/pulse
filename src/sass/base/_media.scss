@@ -80,10 +80,40 @@
     }
     .carousel {
         img {
-            width: 570px;
+            width: 100%;
         }
         ul {
             width: 570px;
+        }
+    }
+    .catalog {
+        &__tab {
+            max-width: 170px;
+        }
+        &__content {
+            margin-left: 25%;
+        }
+    }
+    .reviews {
+        img {
+            margin: 0 20px;
+        }
+        &__descr {
+            max-width: 300px;
+        }
+    }
+    .footer {
+        max-height: 450px;
+        iframe {
+            height: 450px;
+        }
+        &__info {
+            max-height: 150px;
+            padding-top: 20px;
+        }
+        &___addr {
+            margin-bottom: 0;
+            font-size: 15px;
         }
     }
 }
